@@ -1,0 +1,36 @@
+@font-face {
+  font-family: font1;
+  src: url("/PPNeueMontreal-Regular.ttf");
+}
+
+@font-face {
+  font-family: font2;
+  src: url("/659dbdfd5a080be8d3483173_Satoshi-Variable.ttf");
+}
+ /* @font-face {
+  font-family: font2;
+  src: url("/public/CircularXXWeb-Book.ttf");
+} */
+@font-face {
+  font-family: font3;
+  src: url("/659dbdfd5a080be8d348316e_PP\ Neue\ Machina\ Inktrap\ Medium.ttf");
+}
+/* @font-face {
+  font-family: font4;
+  src: url("/public/659dbdfd5a080be8d348316f_PPNeueMachina_\ Light.ttf");
+}  */
+
+.f1{
+  font-family: font1;
+}
+.f2{
+  font-family: font2;
+}
+
+.f3{
+  font-family: font3;
+}
+
+.transi{
+  transition: all 0.5s ease-out;
+}

@@ -1,0 +1,13 @@
+@font-face {
+  font-family: font1;
+  src: url("/PPNeueMontreal-Regular.ttf");
+}
+
+
+.f1{
+  font-family: font1;
+}
+
+.transi{
+  transition: all 0.5s ease-out;
+}
