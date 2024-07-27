@@ -11,6 +11,7 @@ useEffect(() => {
         start:"0 600px",
         end:"bottom bottom",
         scrub:2,
+        markers:true
       },
       opacity:1,
       stagger:0.6

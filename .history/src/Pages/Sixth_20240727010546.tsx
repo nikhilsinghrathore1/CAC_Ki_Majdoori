@@ -1,5 +1,5 @@
-import gsap ,{ScrollTrigger} from 'gsap/all'
-import React, { useEffect, useRef } from 'react'
+import gsap ,{scrollTrigger} from 'gsap/all'
+import React, { useEffect } from 'react'
 
 const Sixth = () => {
   const MaintextDiv = useRef(null)
@@ -7,13 +7,14 @@ const Sixth = () => {
 useEffect(() => {
     gsap.to(document.querySelectorAll(".textani"),{
       scrollTrigger:{
-        trigger:MaintextDiv.current,
-        start:"0 600px",
+        trigger:MaintextDiv,
+        start:"top top",
         end:"bottom bottom",
-        scrub:2,
+        scrub:2
+
       },
       opacity:1,
-      stagger:0.6
+      stagger:0.2
     })
 
  
@@ -29,7 +30,7 @@ useEffect(() => {
                                                 return <span className='inline-block'> &nbsp;</span>
                                               }
                                               else{
-                                                return <span className='inline-block opacity-15 textani'>{e}</span>
+                                                return <span className='inline-block opacity-25 textani'>{e}</span>
                                               }
                                             })}</p>
 

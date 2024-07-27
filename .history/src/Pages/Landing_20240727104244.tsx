@@ -325,7 +325,7 @@ useEffect(() => {
 
 
 
-    <div className='w-full  h-screen bg-[#000] relative   '>
+    <div className='w-full  h-screen bg-[#1E1915] relative   '>
 
 <div ref={opacTextRef} className='w-full opacity-0 text-center f2 font-semibold text-[20.5px] leading-[10px] pt-[90px] tracking-wide'>
   <h1 className='mb-4'>We foster growth through success</h1>

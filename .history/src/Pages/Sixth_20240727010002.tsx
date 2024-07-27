@@ -1,35 +1,15 @@
-import gsap ,{ScrollTrigger} from 'gsap/all'
-import React, { useEffect, useRef } from 'react'
+import React from 'react'
 
 const Sixth = () => {
-  const MaintextDiv = useRef(null)
-
-useEffect(() => {
-    gsap.to(document.querySelectorAll(".textani"),{
-      scrollTrigger:{
-        trigger:MaintextDiv.current,
-        start:"0 600px",
-        end:"bottom bottom",
-        scrub:2,
-      },
-      opacity:1,
-      stagger:0.6
-    })
-
- 
-  
-}, [])
-
-
   return (
-    <div ref={MaintextDiv} className='w-full flex flex-col items-center justify-start h-[70vh]'>
+    <div className='w-full flex flex-col items-center justify-start h-[70vh]'>
 
                                              <p className=' w-[75%] text-center text-[1.3rem] leading-[2.1rem] f4'>{"Working with the Significo team has been such a pleasure! We took on a significant project to rebuild our entire platform and the team approached the project with our best interests in mind. They continue to prioritize the end user experience and offer amazing expertise in all the areas we lack internally. i would personally be lost without this team, thier ability to problem solve, thier openness to feedback and desire to build the product like it is thier own. Miranda Ernst Product Manager @ HealthCheck360".split("").map((e,i)=>{
                                               if(e == " "){
-                                                return <span className='inline-block'> &nbsp;</span>
+                                                return <span>&nbsp;</span>
                                               }
                                               else{
-                                                return <span className='inline-block opacity-15 textani'>{e}</span>
+                                                return <span>{e}</span>
                                               }
                                             })}</p>
 

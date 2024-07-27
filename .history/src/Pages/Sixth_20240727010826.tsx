@@ -11,6 +11,7 @@ useEffect(() => {
         start:"0 600px",
         end:"bottom bottom",
         scrub:2,
+        markers:true
       },
       opacity:1,
       stagger:0.6
@@ -29,7 +30,7 @@ useEffect(() => {
                                                 return <span className='inline-block'> &nbsp;</span>
                                               }
                                               else{
-                                                return <span className='inline-block opacity-15 textani'>{e}</span>
+                                                return <span className='inline-block opacity-25 textani'>{e}</span>
                                               }
                                             })}</p>
 

@@ -17,13 +17,13 @@ useEffect(() => {
   gsap.to(mainCont.current,{
     scrollTrigger:{
       trigger:mainCont.current,
-      start:"-50px top",
+      start:"-200px top",
       end:"310px bottom",
-      scrub:5
+      scrub:1
     },
     backgroundColor:"#AEDEE0",
-    color:"#000",
-    duration:1,
+    color:"white",
+    duration:0.1,
   });
   gsap.to(firstCont.current,{
     scrollTrigger:{
@@ -82,7 +82,7 @@ useEffect(() => {
 
 
   return (
-    <div ref={mainCont} className='w-full  h-[270vh] justify-between bg-[#000]  flex items-start px-12'>
+    <div ref={mainCont} className='w-full  h-[270vh] justify-between bg-[#000] flex items-start px-12'>
                <div  className='w-[41.9%] h-[45%]  pt-20 sticky top-0'>
                            <p className='f4 text-[1.14rem] font-normal tracking-tight leading-[1.78rem]'>Significo is a custom health software developer founded on the belief that technology can transform healthcare to put people first. We put humanity back at the center of healthcare with technology that simplifies complexity, accelerates capacity, and improves outcomes. </p>
 

@@ -17,16 +17,17 @@ const tl = gsap.timeline({
     scrub:3,
   }
 })
-tl.to(SlidingWindow.current,{
-  delay:0.5,
-})
+// tl.to(SlidingWindow.current,{
+//   delay:,
+// })
 tl.to(SlidingWindow.current,{
   x:"-300%",
-  duration:10
+  duration:5
 })
+
 tl.to(SlidingWindow.current,{
   delay:1,
-})
+},"a")
 }, [])
 
 

@@ -17,7 +17,7 @@ useEffect(() => {
   gsap.to(mainCont.current,{
     scrollTrigger:{
       trigger:mainCont.current,
-      start:"-50px top",
+      start:"top top",
       end:"310px bottom",
       scrub:5
     },
